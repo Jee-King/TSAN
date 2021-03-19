@@ -49,7 +49,8 @@ python main.py --template TSAN --save TSAN_X4 --scale 4 --reset --save_results -
 ```
 
 ### Test
-Test dataset can be download from [here](https://drive.google.com/drive/folders/1xyiuTr6ga6ni-yfTP7kyPHRmfBakWovo)
+Test dataset can be download from [here](https://drive.google.com/drive/folders/1xyiuTr6ga6ni-yfTP7kyPHRmfBakWovo).
+
 Using pre-trained model for training, all test datasets must be pretreatment by _Test/Prepare_TestData_HR_LR.m_ and all pre-trained model should be put into _Test/model/_.
 
 ```
