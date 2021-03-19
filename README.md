@@ -2,7 +2,7 @@
 
 pytorch code for papar 'A Two-Stage Attentive Network for Single Image Super-Resolution'.
 
-The code is built on EDSR (PyTorch) and tested on Ubuntu 16.04 environment (Python3.6, PyTorch > 0.4.0) with Titan X/1080Ti/Xp GPUs.
+The code is built on [EDSR (PyTorch)](https://github.com/sanghyun-son/EDSR-PyTorch) and tested on Ubuntu 16.04 environment with Titan 1080Ti/Xp GPUs.
 
 ## **Contents**
 1. Introduction
@@ -49,6 +49,7 @@ python main.py --template TSAN --save TSAN_X4 --scale 4 --reset --save_results -
 ```
 
 ### Test
+Test dataset can be download from [here](https://drive.google.com/drive/folders/1xyiuTr6ga6ni-yfTP7kyPHRmfBakWovo)
 Using pre-trained model for training, all test datasets must be pretreatment by _Test/Prepare_TestData_HR_LR.m_ and all pre-trained model should be put into _Test/model/_.
 
 ```
@@ -65,3 +66,11 @@ python main.py --data_test MyImage --scale 4 --model TSAN --pre_train ../model/T
 You can  introduce self-ensemble strategy to improve the performance by addding _--self_ensemble_
 
 ### Performance
+![x2](https://github.com/Jee-King/TSAN/blob/main/visual_results/x2.png)
+![x3](https://github.com/Jee-King/TSAN/blob/main/visual_results/x3.png)
+![x4](https://github.com/Jee-King/TSAN/blob/main/visual_results/x4.png)
+
+This implementation is for non-commercial research use only.
+
+
+
