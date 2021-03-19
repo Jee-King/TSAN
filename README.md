@@ -64,7 +64,9 @@ python main.py --data_test MyImage --scale 3 --model TSAN --pre_train ../model/T
 python main.py --data_test MyImage --scale 4 --model TSAN --pre_train ../model/TSAN_x4.pt --test_only --save_results --chop --save "TSAN" --testpath ../LR/LRBI --testset Set5
 
 ```
-You can  introduce self-ensemble strategy to improve the performance by addding _--self_ensemble_
+You can  introduce self-ensemble strategy to improve the performance by addding _--self_ensemble_.
+
+More running instructions can be found in _demo.sh_.
 
 ### Performance
 ![x2](https://github.com/Jee-King/TSAN/blob/main/visual_results/x2.png)
