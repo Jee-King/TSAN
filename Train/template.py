@@ -56,10 +56,8 @@ def set_template(args):
         args.n_feats = 64
         args.n_blocks = 8
   
-    if args.template.find('MDRN_Attention') >= 0:
-        args.model = 'MDRN_Attention'
+    if args.template.find('TSAN') >= 0:
+        args.model = 'TSAN'
         args.chop = True
-    
-    if args.template.find('MDRN_Con') >= 0:
-        args.model = 'MDRN_Con'
-        args.chop = True
+        args.n_feats = 64
+        args.n_blocks = 8
