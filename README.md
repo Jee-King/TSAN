@@ -4,7 +4,7 @@ pytorch code for papar 'A Two-Stage Attentive Network for Single Image Super-Res
 
 The code is built on [EDSR (PyTorch)](https://github.com/sanghyun-son/EDSR-PyTorch) and tested on Ubuntu 16.04 environment with Titan 1080Ti/Xp GPUs.
 
-Paper can be download from [TSAN](https://github.com/Jee-King/TSAN/blob/main/SISR_TCSVT.pdf)
+Paper can be download from [TSAN](https://github.com/Jee-King/TSAN/raw/main/SISR_TCSVT.pdf)
 
 ## **Contents**
 1. Introduction
