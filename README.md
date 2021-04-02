@@ -82,8 +82,8 @@ If you do publish a paper where this Work helped your research, Please cite the 
 ```
 @article{zhang2021tsan,
  title={A Two-Stage Attentive Network for Single Image Super-Resolution},
- author={Zhang, Jiqing and Long, Chengjiang and Wang, Yuxin and Piao, Haiyin and Mei, Haiyang and Yang, Xin and Yin, Baocai},
-   journal={IEEE Transactions on Circuits and Systems for Video Technology},
+ author={Zhang, Jiqing and Long, Chengjiang and Wang, Yuxin and Piao, Haiyin and Mei, Haiyang and Yang, Xin and Yin, Baocai},
+ journal={IEEE Transactions on Circuits and Systems for Video Technology},
  year={2021},
  publisher={IEEE}
 }
