@@ -43,7 +43,7 @@ You can skip the decoding part and use saved binaries with --ext sep argument in
 
 If you have enough memory, using --ext bin.
 
-```
+;```
 cd Train/
 # TSAN x2  LR: 48 * 48  HR: 96 * 96
 python main.py --template TSAN --save TSAN_X2 --scale 2 --reset --save_results --patch_size 96 --ext sep_reset
