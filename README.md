@@ -43,34 +43,14 @@ You can skip the decoding part and use saved binaries with --ext sep argument in
 
 If you have enough memory, using --ext bin.
 
-;```
-cd Train/
-# TSAN x2  LR: 48 * 48  HR: 96 * 96
-python main.py --template TSAN --save TSAN_X2 --scale 2 --reset --save_results --patch_size 96 --ext sep_reset
 
-# TSAN x3  LR: 48 * 48  HR: 144 * 144
-python main.py --template TSAN --save TSAN_X3 --scale 3 --reset --save_results --patch_size 144 --ext sep_reset
-
-# TSAN x4  LR: 48 * 48  HR: 192 * 192
-python main.py --template TSAN --save TSAN_X4 --scale 4 --reset --save_results --patch_size 192 --ext sep_reset
-```
 
 ### Test
 Test dataset can be download from [here](https://drive.google.com/drive/folders/1xyiuTr6ga6ni-yfTP7kyPHRmfBakWovo).
 
 Using pre-trained model for training, all test datasets must be pretreatment by _Test/Prepare_TestData_HR_LR.m_ and all pre-trained model should be put into _Test/model/_.
 
-```
-#TSAN x2
-python main.py --data_test MyImage --scale 2 --model TSAN --pre_train ../model/TSAN_x2.pt --test_only --save_results --chop --save "TSAN" --testpath ../LR/LRBI --testset Set5
 
-#TSAN x3
-python main.py --data_test MyImage --scale 3 --model TSAN --pre_train ../model/TSAN_x3.pt --test_only --save_results --chop --save "TSAN" --testpath ../LR/LRBI --testset Set5
-
-#TSAN x4
-python main.py --data_test MyImage --scale 4 --model TSAN --pre_train ../model/TSAN_x4.pt --test_only --save_results --chop --save "TSAN" --testpath ../LR/LRBI --testset Set5
-
-```
 You can  introduce self-ensemble strategy to improve the performance by addding _--self_ensemble_.
 
 More running instructions can be found in _demo.sh_.
