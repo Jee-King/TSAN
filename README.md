@@ -23,7 +23,9 @@ Recently, deep convolutional neural networks (CNNs) have been widely explored in
 
 ## Prerequisites
 1. Python 3.6
-~~2. PyTorch >= 0.4.0~~
+
+~~ 2. PyTorch >= 0.4.0 ~~
+
 3. numpy
 4. skimage
 5. imageio
