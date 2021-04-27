@@ -1,6 +1,6 @@
 # TSAN: A Two-Stage Attentive Network for Single Image Super-Resolution
 
-**Someone tell me after installing prerequisites, it does not work. So I will check the environment again and improve the code of the model and configs for an easy read. The modified codes will be made public again.**
+**Someone tell me after installing prerequisites, it does not work，and the code is different to read. So I will check the environment again and improve the code of the model and configs for an easy read. The modified codes will be made public again.**
 
 pytorch code for papar 'A Two-Stage Attentive Network for Single Image Super-Resolution'.
 
