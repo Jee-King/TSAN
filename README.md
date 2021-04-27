@@ -1,5 +1,7 @@
 # TSAN: A Two-Stage Attentive Network for Single Image Super-Resolution
 
+**Someone tell me after installing prerequisites, it does not work. So I will check the environment again and improve the code of the model and configs for an easy read. The modified codes will be made public again.**
+
 pytorch code for papar 'A Two-Stage Attentive Network for Single Image Super-Resolution'.
 
 The code is built on [EDSR (PyTorch)](https://github.com/sanghyun-son/EDSR-PyTorch) and tested on Ubuntu 16.04 environment with Titan 1080Ti/Xp GPUs.
